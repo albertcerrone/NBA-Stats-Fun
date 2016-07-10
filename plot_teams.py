@@ -5,6 +5,10 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# This script simply generates a violin plot
+# of each team's field goal percentage
+# distribution.
+
 if __name__ == "__main__":
     
     master = pd.read_csv('all_games.csv')
